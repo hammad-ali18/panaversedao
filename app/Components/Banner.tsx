@@ -13,7 +13,7 @@ export default function Banner() {
     <>
   <Box bgAttachment='fixed' bgImage='https://static.vecteezy.com/system/resources/previews/005/152/375/original/modern-futuristic-neon-purple-background-free-vector.jpg' >
 
-<Container maxW={1400} >
+<Container maxW={1400} overflow="hidden" >
 <Flex py={{lg:"150px",base:"30px"}} px={{lg:'none',base:"30px"}}
 gap={{lg:"50px",base:"40px"}}
 display={{lg:"flex", base:"grid"}}
@@ -44,7 +44,7 @@ display={{lg:"flex", base:"grid"}}
   </Box>
 
   <Box>
-   <Container maxWidth={1400}>
+   <Container maxWidth={1400} overflow="hidden">
     
     <Flex gap={{lg:"100px",base:"10px"}} display={{lg:"flex", base:"grid"}}
     
@@ -73,7 +73,7 @@ width={600} height={500}></Image>
   
 
   <Box bgColor="purple.100" >
-    <Container maxW={1400} py="70px">
+    <Container maxW={1400} py="70px" overflow="hidden">
       
       <Box paddingY="40px">
         <Center  >
@@ -151,7 +151,7 @@ width={600} height={500}></Image>
     </Container>
   </Box>
   <Box>
-   <Container maxWidth={1400}>
+   <Container maxWidth={1400} overflow="hidden">
     <Flex gap={{lg:"100px",base:"10px"}} display={{lg:"flex",base:"grid"}} >
       
         <Box flexBasis="50%" pt="70px" px={{lg:"initial",base:"20px"}} >
@@ -177,7 +177,7 @@ width={600} height={500}></Image>
   </Box>
 
   <Box my="40px">
-    <Container maxW={1400} bgColor="purple.100" borderRadius="30px" 
+    <Container maxW={1400}  overflow="hidden" bgColor="purple.100" borderRadius="30px" 
     borderLeft="8px" borderLeftColor="purple.600">
     
       <Box py="50px">
@@ -210,7 +210,7 @@ In this brand-new type of curriculum, students will learn how to make money and 
     </Container>
   </Box>
   <Box>
-    <Container maxW={1400}>
+    <Container maxW={1400} overflow="hidden">
        
       <Instructors />
       

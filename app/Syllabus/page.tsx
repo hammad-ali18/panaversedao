@@ -7,10 +7,11 @@ export default function page() {
   return (
    <>
       <Home title="Syllabus" src="https://thumbs.dreamstime.com/b/text-syllabus-cubes-text-syllabus-cubes-156295157.jpg"/>
-   <Container maxW={1400}> 
+      <Box>
+   <Container maxW="1400" overflowX="hidden"> 
    
-    <Box >
-    <Box mx="30px" my="50px" >
+  
+    <Box mx="30px" my="50px"  >
      <Center>
        <RevealList interval={60} delay={500} origin='top' duration={1000} distance='500px' reset={true}>
        <Heading size="2xl" borderLeft="8px"borderColor="purple.700" ml={{lg:"330px",base:"none"}} pr={{lg:"300px",base:"none"}} pl="10px">
@@ -97,11 +98,7 @@ After completing the first two quarters the participants will select one or more
         </RevealList>
         </Center>
       </Box>
-     
-    </Box>
-   </Container>
-  <Box >
-    <Container maxWidth={1600} bgImage= "https://www.pixelstalk.net/wp-content/uploads/2016/12/Blue-and-Purple-Background-Free-Download.jpg" bgSize="cover" bgAttachment="fixed" mt="50px" py="30px">
+     <Container maxW={1400} bgImage= "https://www.pixelstalk.net/wp-content/uploads/2016/12/Blue-and-Purple-Background-Free-Download.jpg" bgSize="cover" bgAttachment="fixed" mt="50px" py="30px">
       <Box >
      <RevealList interval={60} delay={500} origin='top' duration={1000} distance='300px' reset={true}>
     <Center>
@@ -405,7 +402,9 @@ After completing the first two quarters the participants will select one or more
   </Box>
     </Box>
     </Container>
-  </Box>
+
+ </Container>
+ </Box>
    </>
   )
 }

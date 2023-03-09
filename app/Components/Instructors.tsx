@@ -12,7 +12,7 @@ interface data{
 export default function Instructors() {
   return (
    <Box>
-    <Container maxW={1400}>
+    <Container maxW={1400} overflow="hidden">
         <Center>
               <RevealList interval={60} delay={500} origin='top' duration={1000} distance='100px' reset={true}>
             <Heading size="2xl" borderLeft="8px" borderLeftColor="purple.700" pl="10px">Our Instructors</Heading>
